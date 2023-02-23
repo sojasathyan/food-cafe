@@ -1,0 +1,83 @@
+/*Athour : Soja */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.fclass {
+	background-image: url("../images/agency-slider-04.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.wi {
+	width: 20px;
+	stroke: white;
+	background-color: black;
+	padding: 3px;
+}
+.f2class {
+	background-image: url("../images/restaurant-menu-bg.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.dicover {
+	color: rgb(63, 16, 16);
+}
+.wid {
+	width: 100%;
+}
+
+.amaz_bg {
+	background-image: url("../images/hero-bg9.jpg");
+	background-size: cover;
+}
+.amaz_bg_opac {
+	background: rgba(0, 0, 0, 0.7);
+}
+.service_bg {
+	background-image: url("../images/fitness-about-bg.jpg");
+	background-size: cover;
+}
+.f3class {
+	background-image: url("../images/hero-bg3.jpg");
+	background-size: cover;
+}
+.fam {
+	font-family: Brush script MT;
+	color: orangered;
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+.menu p {
+	color: orange;
+}
+.jermy {
+	background-color: rgb(244, 244, 152);
+}
+.enjoy {
+	background-color: cornsilk;
+}
+.iconn {
+	width: 40px;
+	stroke: rgb(245, 245, 100);
+}
+.top1 {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+/* .carousel-indicators[data-bs-target] {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+} */
+
+@media screen and (max-width: 567px) {
+	.f2class {
+		background-image: none;
+	}
+}
