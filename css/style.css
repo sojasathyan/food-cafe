@@ -59,6 +59,16 @@ html {
 .menu p {
 	color: orange;
 }
+.btn-discover-menu {
+	color: #fff;
+	border-color: #fff;
+}
+.btn-discover-menu:hover,
+.btn-discover-menu:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: #fff;
+}
 .menu-cat {
 	cursor: pointer;
 	transition: transform 0.2s;
